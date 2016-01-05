@@ -10,13 +10,13 @@ RUN export DEBIAN_FRONTEND=noninteractive && \
 
 RUN export DEBIAN_FRONTEND=noninteractive && \
 	apt-get install -y \
-		awk \
 		bash \
 		bash-completion \
 		bzip2 \
 		ca-certificates \
 		curl \
 		file \
+		gawk \
 		git \
 		grep \
 		gzip \
